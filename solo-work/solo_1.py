@@ -9,3 +9,10 @@ print("{} {}".format(hello, student))
 # zadanie 1.2
 student = input("Wpisz swoje imie")
 print(f"Hello {student}")
+
+
+#zadanie 1.3
+studenci = ["Ania", "Kuba", "Piotr", "Jan"]
+
+liczba_studentow = len(studenci)
+print(f"Liczba studentow wynosi: {liczba_studentow}")
