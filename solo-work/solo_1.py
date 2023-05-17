@@ -16,3 +16,9 @@ studenci = ["Ania", "Kuba", "Piotr", "Jan"]
 
 liczba_studentow = len(studenci)
 print(f"Liczba studentow wynosi: {liczba_studentow}")
+
+
+#zadanie 1.4
+studenci = ["Ania", "Kasia", "Piotr", "Tomek"]
+for i in studenci:
+  print(f"Hello {i}")
