@@ -69,3 +69,47 @@ nazwsika_na_N= [1 if student.split()[-1].startswith("N") else 0 for student in s
 liczba_n = sum(nazwsika_na_N)
 print("Liczba studentow na N wynosi: ", liczba_n)
 
+
+#zadanie 1.10
+# zadanie 1.10
+
+# zmienne poniezej preprezentuja ulozenie punktow na wykresie,
+# do zadania dolaczono takze rysunek pomocniczy
+wykres_1 = [[2, 4], [4, 4], [6, 4]]
+wykres_2 = [[2, 3], [4, 4], [6, 5]]
+wykres_3 = [[2, 3], [4, 3], [5, 4]]
+
+# zbadaj kazdy wykres, czy dla wyznaczonych punktow istnieje funkcja
+# liniowa laczaca punkty
+# jesli sie nie da, to zwroc False
+# jesli sie da, zwroc True
+
+def funkcja_liniowa(wykres):
+    roznice = [
+        [wykres[i+1][1] - wykres[i][1], wykres[i+1][0] - wykres[i][0]]
+               for i in range(len(wykres)-1)]
+    return all(x == roznice[0] for x in roznice)
+
+wykres_1_funkcja_liniowa = funkcja_liniowa(wykres_1)
+wykres_2_funkcja_liniowa = funkcja_liniowa(wykres_2)
+wykres_3_funkcja_liniowa = funkcja_liniowa(wykres_3)
+
+if wykres_1_funkcja_liniowa:
+    print("Dla punktow w wykres_1 mozna wyznaczyc funkcje liniowa.")
+else:
+    print("Dla punktow w wykres_1 nie mozna wyznaczyc funkcji liniowej.")
+
+if wykres_2_funkcja_liniowa:
+    print("Dla punktow w wykres_2 mozna wyznaczyc funkcje liniowa.")
+else:
+    print("Dla punktow w wykres_2 nie mozna wyznaczyc funkcji liniowej.")
+
+if wykres_3_funkcja_liniowa:
+    print("Dla punktow w wykres_3 mozna wyznaczyc funkcje liniowa.")
+else:
+    print("Dla punktow w wykres_3 nie mozna wyznaczyc funkcji liniowej.")
+
+# oczekiwany rezultat:
+# Dla punktow w wykres_1 mozna wyznaczyc funkcje liniowa.
+# Dla punktow w wykres_2 mozna wyznaczyc funkcje liniowa.
+# Dla punktow w wykres_3 nie mozna wyznaczyc funkcji liniowej.
