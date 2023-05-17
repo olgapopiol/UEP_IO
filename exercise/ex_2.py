@@ -30,3 +30,15 @@ obwod = 4*a
 pole = int(a*a)
 
 print("Obwod kwadratu wynosi " + str(obwod) + ", zas pole wynosi " + str(pole) + ".")
+
+
+# romb
+
+a = 4
+h = 10
+
+
+obwod = 4*a
+pole = a*h
+
+print("Obwod rombu wynosi " + str(obwod) + ", zas pole wynosi " + str(pole) + ".")
