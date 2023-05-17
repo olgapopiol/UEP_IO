@@ -49,6 +49,7 @@ print("Obwod rombu wynosi " + str(obwod) + ", zas pole wynosi " + str(pole) + ".
 
 r = 10
 
+pi=3.14
 obwod = 2 * pi * r
 pole = pi * r ** 2
 
