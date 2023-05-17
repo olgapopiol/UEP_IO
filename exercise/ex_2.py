@@ -10,6 +10,7 @@ pole = int((h * a) / 2)
 
 print("Obwod trojkata wynosi " + str(obwod) + ", zas pole wynisi " + str(pole) + ".") 
 
+
 # prostokat
 
 a = 10
@@ -19,3 +20,13 @@ obwod = 2*a + 2*b
 pole = int(a*b)
 
 print("Obwod prostokata wynosi " + str(obwod) + ", zas pole wynosi " + str(pole) + ".")
+
+
+# kwadrat
+
+a = 10
+
+obwod = 4*a
+pole = int(a*a)
+
+print("Obwod kwadratu wynosi " + str(obwod) + ", zas pole wynosi " + str(pole) + ".")
