@@ -14,3 +14,11 @@ def kwadrat(bok):
 
 print("Pole i obwod wynosi: ", kwadrat(3))
 
+
+def romb(a, h):
+    pole= a*h
+    obwod= 4*a
+
+    return pole, obwod
+
+print("Pole i obwod wynosi: ", romb(3,5))
