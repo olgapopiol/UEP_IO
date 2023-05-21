@@ -7,8 +7,8 @@ print("{} {}".format(hello, student))
 
 
 # zadanie 1.2
-student = input("Wpisz swoje imie")
-print(f"Hello {student}")
+# student = input("Wpisz swoje imie")
+# print(f"Hello {student}")
 
 
 #zadanie 1.3
