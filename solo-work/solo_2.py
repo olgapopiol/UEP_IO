@@ -6,3 +6,11 @@ def trojkat(bok_a,bok_b,bok_c,h_a):
 
 print("Pole i obwod wynosi: ", trojkat(2,3,4,4))
 
+
+def kwadrat(bok):
+    pole=bok**2
+    obwod=4*bok
+    return pole, obwod
+
+print("Pole i obwod wynosi: ", kwadrat(3))
+
