@@ -13,11 +13,12 @@ class Student:
         self.indeks.append(ocena)
 
     def oblicz_srednia_ocen(self):
+        srednia = 0
         if self.indeks:
-            srednia = sum(self.indeks) / len(self.indeks)
+            srednia = sum(self.indeks) / len(self.indeks) 
         else:
             srednia = 0
-        print(srednia)
+        return srednia
 
 
 
@@ -26,5 +27,5 @@ student_olga.dodaj_ocene(5.0)
 student_olga.dodaj_ocene(4.0)
 student_olga.dodaj_ocene(5.0)
 student_olga.dodaj_ocene(3.5)
-student_olga.oblicz_srednia_ocen()
+print(student_olga.oblicz_srednia_ocen())
 
