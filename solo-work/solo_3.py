@@ -1,7 +1,7 @@
 class Student:
     def __init__(self, imie, nazwisko, nr_albumu):
         self.imie_studenta = imie
-        self.nazwisko = nazwisko #nazwisko po slef. nie jestem tym samym co parametr nazwisko
+        self.nazwisko = nazwisko #nazwisko po self. nie jestem tym samym co parametr nazwisko
         self.numer_albumu = nr_albumu
         self.indeks = []
 
