@@ -12,7 +12,7 @@ def kwadrat(bok):
     obwod=4*bok
     return pole, obwod
 
-print("Pole i obwod wynosi: ", kwadrat(3))
+print("Pole i obwod kwadratu wynosi: ", kwadrat(3))
 
 
 def romb(a, h):
@@ -21,4 +21,4 @@ def romb(a, h):
 
     return pole, obwod
 
-print("Pole i obwod wynosi: ", romb(3,5))
+print("Pole i obwod rombu wynosi: ", romb(3,5))
